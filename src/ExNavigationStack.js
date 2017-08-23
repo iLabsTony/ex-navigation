@@ -822,7 +822,7 @@ class ExNavigationStack extends PureComponent<any, Props, State> {
           ...style,
           isTranslucent
             ? styles.withNavigationBarTranslucent
-            : { paddingTop: this._getNavigationBarHeight(routeConfig) },
+            : { paddingTop: 20 },
         ];
       }
     } else {
